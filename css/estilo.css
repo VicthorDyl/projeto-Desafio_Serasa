@@ -1,0 +1,54 @@
+#home {
+	background: #ca2e9a;
+	color: white;
+}
+header a{
+	color: white;
+}
+header nav{
+	background-color: #ca2e9a;
+}
+header .logo{
+	width: 125px;
+}
+form {
+	background-color: white;
+}
+form p, label{
+	color: black;
+}
+form h4{
+	color: #ca2e9a;
+	padding: 5px 0px;
+}
+form input{
+	color: pink;
+}
+table{
+	border-radius: 8px;
+}
+td {
+	width: 25%;
+}
+.caixa{
+	padding: 60px 0px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.confirmar-btn{
+	color: white;
+	border: 1px solid white;
+	background-color: #ca2e9a;
+	padding: 5px 0px;
+	border-radius: 5px;
+}
+.confirmar-btn:hover{
+	color: #ca2e9a;
+	border: 1px solid #ca2e9a;
+	background-color: white;
+}
+
+footer p a{
+	margin:5px 15px;
+
+}
