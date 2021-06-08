@@ -11,13 +11,16 @@ header nav{
 header .logo{
 	width: 125px;
 }
+.principal{
+	text-align: center;
+}
 form {
 	background-color: white;
 }
 form p, label{
 	color: black;
 }
-form h4{
+h4{
 	color: #ca2e9a;
 	padding: 5px 0px;
 }
@@ -48,7 +51,121 @@ td {
 	background-color: white;
 }
 
+.solicitar-btn{
+	font-size: 30px;
+	color: #ca2e9a;
+	background-color: white;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+
+.solicitar-btn:hover{
+	font-size: 30px;
+	color: white;
+	border: 2px solid #ed8bcf;
+	background-color: #ed8bcf;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+
 footer p a{
 	margin:5px 15px;
+	color: #ca2e9a;
 
 }
+
+.modal-dialog{
+	border: 3px solid #ca2e9a;
+}
+
+.popup-btn-enviar{
+	color: white;
+	width: auto;
+	padding: 5px 10px;
+	border: 1px solid #ca2e9a;
+	background-color: #ca2e9a;
+	border-radius: 5px;
+}
+.popup-btn-enviar:hover{
+	color: white;
+	width: auto;
+	padding: 5px 10px;
+	border: 1px solid #ca2e9a;
+	background-color: #ed8bcf;
+	border-radius: 5px;
+}
+
+
+.popup-btn-fechar{
+	color: #ca2e9a;
+	width: auto;
+	padding: 5px 10px;
+	border: 1px solid #ca2e9a;
+	background-color: white;
+	border-radius: 5px;
+}
+
+.popup-btn-fechar:hover{
+	color: white;
+	width: auto;
+	padding: 5px 10px;
+	border: 1px solid #ca2e9a;
+	background-color: #ed8bcf;
+	border-radius: 5px;
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.simulacao{
+		margin-bottom: 15px;
+	}
+	.resultado{
+		margin-bottom: 30px;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	.simulacao{
+		margin-bottom: 15px;
+	}
+	.resultado{
+		margin-bottom: 20px;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.resultado{
+		padding-top: 65px;
+		margin-bottom: 60px;
+	}
+	.resultado img{
+		width: 64%;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.simulacao{
+		padding-top: 115px;
+	}
+	.resultado{
+		padding-bottom: 0px;
+	}
+	.resultado img{
+		width: 49%;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.simulacao{
+		padding-top: 112px;
+	}
+	
+}
+	
